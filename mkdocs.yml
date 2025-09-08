@@ -1,0 +1,27 @@
+site_name: "HƯỚNG DẪN KHÁM BỆNH, CHỮA BỆNH EMR"
+theme:
+  name: material
+  language: vi
+  palette:
+    - scheme: default
+      primary: blue        # màu chủ đạo
+      accent: teal         # màu nhấn
+    - scheme: slate        # chế độ dark mode
+      primary: blue
+      accent: teal
+      toggle:
+        icon: material/weather-night
+  font:
+    text: Roboto
+    code: Fira Code
+nav:
+  - Giới thiệu: intro.md
+  - 1. Điều trị Ngoại trú: 
+      1.1 Khám và chỉ định: 1.1.khamvachidinh.md
+      1.2 Xem và ký số kết quả CLS: 1.2.xemCLS.md
+  - 2. Điều trị Nội trú: noitru.md
+  - 3. Tiện ích:
+      3.1 Phần mềm scan: 3.1.phanmemscan.md 
+      3.2 Làm mới phần mềm KCB: 3.2.lammoiphanmem.md 
+extra_css:
+  - styles/extra.css
