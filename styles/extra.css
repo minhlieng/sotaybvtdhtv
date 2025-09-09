@@ -1,3 +1,9 @@
+a {
+  color: #162546 !important;
+}
+a:hover {
+  color: #007500 !important;
+}
 .md-header {
   background-color: #162546 !important;
 }
@@ -41,7 +47,9 @@
   text-justify: inter-word;
   /* phân bố khoảng trắng hợp lý */
 }
-
+.md-content a {
+  color: #053384 !important;
+}
 .md-content h1 {
 
   color: #162546;
@@ -101,6 +109,6 @@
     align-items: center;
     text-align: center;
   }
-
   .footer-left {}
 }
+
