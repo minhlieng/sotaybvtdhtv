@@ -1,9 +1,4 @@
-a {
-  color: #162546 !important;
-}
-a:hover {
-  color: #007500 !important;
-}
+
 .md-header {
   background-color: #162546 !important;
 }
@@ -110,5 +105,16 @@ a:hover {
     text-align: center;
   }
   .footer-left {}
+}
+.md-content h2{
+  font-weight: bold;
+  color: #007500;
+}
+.md-content h4{
+  font-weight: bold;
+  color: #053384;
+}
+.md-content img{
+  width: 50% !important;
 }
 
