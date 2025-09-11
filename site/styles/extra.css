@@ -1,4 +1,3 @@
-
 .md-header {
   background-color: #162546 !important;
 }
@@ -42,9 +41,11 @@
   text-justify: inter-word;
   /* phân bố khoảng trắng hợp lý */
 }
+
 .md-content a {
   color: #053384 !important;
 }
+
 .md-content h1 {
 
   color: #162546;
@@ -64,14 +65,18 @@
       #053384 100%)1;
 
 }
+
 .custom-footer-wrapper {
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 100; /* nổi trên content */
-  background: #111; /* màu nền */
+  z-index: 100;
+  /* nổi trên content */
+  background: #162546;
+  /* màu nền */
 }
+
 .md-footer-meta {
   background: #162546 !important;
 }
@@ -104,17 +109,47 @@
     align-items: center;
     text-align: center;
   }
+
   .footer-left {}
 }
-.md-content h2{
+
+.md-content h2 {
   font-weight: bold;
   color: #007500;
+  margin: 0px;
 }
-.md-content h4{
+
+.md-content h4 {
   font-weight: bold;
   color: #053384;
 }
-.md-content img{
+
+.md-content img {
   width: 50% !important;
 }
+.mermaid .node rect,
+.mermaid .node polygon,
+.mermaid .node ellipse,
+.mermaid .node circle,
+.mermaid .node path {
+  fill: #ffffff !important;      /* nền trắng */
+  stroke: #053384 !important;    /* viền xanh đậm */
+  stroke-width: 2px !important;
+}
 
+/* Text trong node */
+.mermaid .node text {
+  fill: #053384 !important;        /* chữ xanh đậm */
+  font-weight: 600;
+}
+
+/* Mũi tên (cạnh nối giữa các node) */
+.mermaid .edgePath path {
+  stroke: #053384 !important;      /* màu đường nối */
+  stroke-width: 1px !important;
+}
+
+/* Đầu mũi tên */
+.mermaid .marker {
+  fill: #053384 !important;        /* đầu mũi tên xanh đậm */
+}
