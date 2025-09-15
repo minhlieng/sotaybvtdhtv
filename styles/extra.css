@@ -125,7 +125,7 @@
 }
 
 .md-content img {
-  width: 50% !important;
+  width: 100% !important;
 }
 .mermaid .node rect,
 .mermaid .node polygon,
