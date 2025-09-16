@@ -26,8 +26,33 @@ nav:
         1.3.3. Nhập viện: 1.3.3.nhapvien.md
         1.3.4. Chuyển tuyến: 1.3.4.chuyentuyen.md
   - 2. Điều trị Nội trú: 
-      2.1. Tiếp nhận: 2.1.tiepnhannoitru.md
-      2.2. Điều trị: 2.2.khambenh.md
+      2.1. Tiếp nhận và tạo BA: 2.1.tiepnhannoitru.md
+      2.2. Thông tin bệnh án: 2.2.thongtinbenhan.md
+      2.3. Thông tin điều trị: 
+        2.3.1. Tạo tờ điều trị: 2.2.thongtinbenhan.md
+        2.3.2. Xem tờ điều trị tổng: 2.2.thongtinbenhan.md
+        2.3.3. Thuốc/Vật tư: 2.2.thongtinbenhan.md
+        2.3.4. Xét nghiệm: 2.2.thongtinbenhan.md
+        2.3.5. CĐHA: 2.2.thongtinbenhan.md
+        2.3.6. TTPT: 2.2.thongtinbenhan.md
+        2.3.7. Phẫu thuật: 2.2.thongtinbenhan.md
+        2.3.8. Dinh dưỡng: 2.2.thongtinbenhan.md
+        2.3.9. Khác: 2.2.thongtinbenhan.md
+      2.4. Thông tin chăm sóc: 
+        2.4.1. Chăm sóc cấp 2-3: 2.2.thongtinbenhan.md
+        2.4.2. Chăm sóc cấp 1: 2.2.thongtinbenhan.md
+        2.4.3. Truyền dịch: 2.2.thongtinbenhan.md
+        2.4.4. Khác: 2.2.thongtinbenhan.md
+      2.5. Thông tin viện phí: 
+        2.5.1. Giường bệnh: 2.2.thongtinbenhan.md
+        2.5.2. Tạm ứng: 2.2.thongtinbenhan.md
+        2.5.3. Chuyển dịch vụ BHYT: 2.2.thongtinbenhan.md
+        2.5.4. Ghép thẻ: 2.2.thongtinbenhan.md
+        2.5.5. Kiểm tra viện phí: 2.2.thongtinbenhan.md
+      2.6. Lịch sử bệnh án: 2.2.khambenh.md
+      2.7. Scan hồ sơ và ký số: 2.2.khambenh.md
+      2.8. Xem và ký số TT50: 2.2.khambenh.md
+      2.9. ERM Ký số bảng kê: 2.2.khambenh.md
   - 3. Tiện ích:
       3.1. Phần mềm scan: 3.1.phanmemscan.md 
       3.2. Làm mới phần mềm KCB: 3.2.lammoiphanmem.md 
@@ -35,3 +60,4 @@ extra_css:
   - styles/extra.css
 plugins:
   - mermaid2
+
