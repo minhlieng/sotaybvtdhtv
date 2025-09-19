@@ -29,15 +29,14 @@ nav:
       2.1. Tiếp nhận và tạo BA: 2.1.tiepnhannoitru.md
       2.2. Thông tin bệnh án: 2.2.thongtinbenhan.md
       2.3. Thông tin điều trị: 
-        2.3.1. Tạo tờ điều trị: 2.3.1.taotodieutri.md
-        2.3.2. Xem tờ điều trị tổng: 2.3.2..md
-        2.3.3. Thuốc/Vật tư: 2.3.3..md
-        2.3.4. Xét nghiệm: 2.3.4..md
-        2.3.5. CĐHA: 2.3.5..md
-        2.3.6. TTPT: 2.3.6..md
-        2.3.7. Phẫu thuật: 2.3.7..md
-        2.3.8. Dinh dưỡng: 2.3.8..md
-        2.3.9. Khác: 2.3.9..md
+        2.3.1. Tờ điều trị: 2.3.1.todieutri.md
+        2.3.2. Thuốc/Vật tư: 2.3.2.thuocvattu.md
+        2.3.3. Xét nghiệm: 2.3.3.xetnghiem.md
+        2.3.4. CĐHA: 2.3.4.cdha.md
+        2.3.5. TTPT: 2.3.5.ttpt.md
+        2.3.6. Phẫu thuật: 2.3.6.phauthuat.md
+        2.3.7. Dinh dưỡng: 2.3.7.dinhduong.md
+        2.3.8. Khác: 2.3.8.khac.md
       2.4. Thông tin chăm sóc: 
         2.4.1. Chăm sóc cấp 2-3: 2.4.1..md
         2.4.2. Chăm sóc cấp 1: 2.4.2..md
@@ -56,8 +55,10 @@ nav:
   - 3. Tiện ích:
       3.1. Phần mềm scan: 3.1.phanmemscan.md 
       3.2. Làm mới phần mềm KCB: 3.2.lammoiphanmem.md 
+      3.3. Bảo mật tài khoản KCB: 3.3.baomattaikhoankcb.md 
 extra_css:
   - styles/extra.css
 plugins:
   - mermaid2
+  - search
 

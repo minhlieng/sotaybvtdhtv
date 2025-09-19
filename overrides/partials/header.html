@@ -1,0 +1,24 @@
+{% set class = "md-header" %}
+<header class="{{ class }}" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <!-- Giữ logo/trái -->
+    <a href="{{ config.site_url | default(nav.homepage.url, true) | url }}"
+       title="{{ config.site_name }}"
+       class="md-header__button md-logo"
+       aria-label="{{ config.site_name }}">
+       {% include "partials/logo.html" %}
+    </a>
+
+    <!-- Giữ tiêu đề -->
+    <label class="md-header__title" for="__drawer">
+      <span class="md-header__topic">
+        {{ config.site_name }}
+      </span>
+    </label>
+
+    <!-- Chèn logo bên phải -->
+    <div class="custom-header-right">
+      <img src="{{ base_url }}/images/header.png" alt="Logo bên phải">
+    </div>
+  </nav>
+</header>
