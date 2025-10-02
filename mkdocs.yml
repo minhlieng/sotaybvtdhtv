@@ -38,20 +38,14 @@ nav:
         2.3.7. Dinh dưỡng: 2.3.7.dinhduong.md
         2.3.8. Khác: 2.3.8.khac.md
       2.4. Thông tin chăm sóc: 
-        2.4.1. Chăm sóc cấp 2-3: 2.4.1..md
-        2.4.2. Chăm sóc cấp 1: 2.4.2..md
-        2.4.3. Truyền dịch: 2.4.3..md
-        2.4.4. Khác: 2.4.4..md
-      2.5. Thông tin viện phí: 
-        2.5.1. Giường bệnh: 2.5.1..md
-        2.5.2. Tạm ứng: 2.5.2..md
-        2.5.3. Chuyển dịch vụ BHYT: 2.5.3..md
-        2.5.4. Ghép thẻ: 2.5.4..md
-        2.5.5. Kiểm tra viện phí: 2.5.5..md
-      2.6. Lịch sử bệnh án: 2.6..md
-      2.7. Scan hồ sơ và ký số: 2.7..md
-      2.8. Xem và ký số TT50: 2.8..md
-      2.9. ERM Ký số bảng kê: 2.9..md
+        2.4.1. Chăm sóc cấp 2-3: 2.4.1.chamsoccap23.md
+        2.4.2. Chăm sóc cấp 1: 2.4.2.chamsoccap1.md
+        2.4.3. Truyền dịch: 2.4.3.truyendich.md
+        2.4.4. Khác: 2.4.4.khac.md
+      2.5. Thông tin viện phí: 2.5.thongtinvienphi.md
+      2.6. Lịch sử bệnh án: 2.6.lichsubenhan.md
+      2.7. Scan hồ sơ và ký số TT50: 2.7.scanvakyso.md
+      2.8. ERM Ký số bảng kê: 2.8.emrkysobangke.md
   - 3. Tiện ích:
       3.1. Phần mềm scan: 3.1.phanmemscan.md 
       3.2. Làm mới phần mềm KCB: 3.2.lammoiphanmem.md 

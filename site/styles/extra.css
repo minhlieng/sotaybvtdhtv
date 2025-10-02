@@ -100,31 +100,3 @@
   font-weight: bold;
   color: #053384;
 }
-
-
-.mermaid .node rect,
-.mermaid .node polygon,
-.mermaid .node ellipse,
-.mermaid .node circle,
-.mermaid .node path {
-  fill: #ffffff !important;      /* nền trắng */
-  stroke: #053384 !important;    /* viền xanh đậm */
-  stroke-width: 2px !important;
-}
-
-/* Text trong node */
-.mermaid .node text {
-  fill: #053384 !important;        /* chữ xanh đậm */
-  font-weight: 600;
-}
-
-/* Mũi tên (cạnh nối giữa các node) */
-.mermaid .edgePath path {
-  stroke: #053384 !important;      /* màu đường nối */
-  stroke-width: 1px !important;
-}
-
-/* Đầu mũi tên */
-.mermaid .marker {
-  fill: #053384 !important;        /* đầu mũi tên xanh đậm */
-}
